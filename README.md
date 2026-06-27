@@ -24,7 +24,7 @@ Responsive Bootstrap 5 portfolio for the "Clone Your Future" assignment.
 
 ## Image credits
 
-All visual assets in `assets/` are original SVG placeholders created for this assignment. Project, email, GitHub, and LinkedIn links have been added from the provided portfolio code.
+Hero and profile visuals in `assets/` are original SVG assets created for this assignment. Project card images use remote screenshots from the linked live/demo project pages and GitHub repository preview images, so the grid reflects the actual projects shown in the portfolio.
 
 ## Submission checklist
 
