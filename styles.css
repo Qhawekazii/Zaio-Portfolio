@@ -52,7 +52,7 @@ img {
   display: grid;
   place-items: center;
   color: #ffffff;
-  background-image: url("assets/hero.svg");
+  background-image: url("assets/hero.jpg");
   background-size: cover;
   background-position: center;
   overflow: hidden;
