@@ -15,7 +15,7 @@
 }
 
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: auto;
 }
 
 body {
@@ -40,7 +40,6 @@ img {
   background: #111827;
   border-radius: 0.4rem;
   transform: translateY(-140%);
-  transition: transform 160ms ease;
 }
 
 .skip-link:focus {
@@ -119,7 +118,6 @@ img {
   background: #d8f1ea;
   transform: scaleX(0);
   transform-origin: left;
-  transition: transform 160ms ease;
 }
 
 .portfolio-nav .nav-link:hover::after,
@@ -268,6 +266,13 @@ img {
   font-size: 0.9rem;
 }
 
+.project-copy {
+  margin-bottom: 1.35rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
 .project-actions {
   display: flex;
   align-items: center;
@@ -318,14 +323,12 @@ img {
   background: var(--accent);
   border-radius: 50%;
   font-size: 1.25rem;
-  transition: transform 160ms ease, background-color 160ms ease;
 }
 
 .social-row a:hover,
 .social-row a:focus {
   color: #ffffff;
   background: var(--brand);
-  transform: translateY(-2px);
 }
 
 .contact-form {
@@ -350,15 +353,46 @@ img {
 }
 
 .site-footer {
-  padding: 1.35rem 0;
+  padding: 2rem 0;
   color: rgba(255, 255, 255, 0.82);
   background: #09141d;
   text-align: center;
 }
 
+.site-footer h2 {
+  margin: 0 0 0.35rem;
+  color: #ffffff;
+  font-size: 1.35rem;
+  font-weight: 800;
+}
+
 .site-footer p {
-  margin: 0;
+  margin: 0.25rem 0;
   font-size: 0.9rem;
+}
+
+.footer-socials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.footer-socials a {
+  color: #d8f1ea;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.footer-socials a:hover,
+.footer-socials a:focus {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.copyright {
+  color: rgba(255, 255, 255, 0.66);
 }
 
 @media (max-width: 767.98px) {
